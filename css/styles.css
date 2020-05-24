@@ -95,6 +95,11 @@ ul.site-nav.list {
     align-items: center;
 }
 
+.work-section {
+    display: flex;
+    align-items: center;
+}
+
 
 /*feedbeack*/
 
@@ -202,6 +207,8 @@ h4 {
     line-height: 16px;
     text-align: center;
     letter-spacing: 0.03em;
+    color: var(--primary-background-button);
+    text-decoration: none;
 }
 
 h5 {
@@ -211,6 +218,12 @@ h5 {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--title-text-grey);
+}
+
+.container-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -244,6 +257,7 @@ h5 {
     letter-spacing: 0.03em;
     text-decoration: none;
     padding: 6px 22px;
+    margin-right: 8px;
     border-radius: 4px;
 }
 
@@ -488,7 +502,7 @@ h1 {
 }
 
 h2 {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     margin-top: 0px;
     font-family: roboto;
     font-style: normal;
@@ -536,7 +550,7 @@ h5 {
 
 .workers-section {
     background-color: #f5f4fa;
-    padding-top: 94px;
+    padding-top: 186px;
 }
 
 .section-clients {
@@ -546,6 +560,8 @@ h5 {
 
 .work-section {
     padding-bottom: 94px;
+    padding-top: 50px;
+    display: flex;
 }
 
 
