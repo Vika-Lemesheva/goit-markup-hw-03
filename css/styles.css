@@ -98,6 +98,7 @@ ul.site-nav.list {
 .work-section {
     display: flex;
     align-items: center;
+    padding-top: 94px;
 }
 
 
@@ -236,6 +237,18 @@ ul.list {
     margin: 0px;
 }
 
+ul.works {
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+}
+
+li.works-kard {
+    margin-right: 30px;
+}
+
+.card {}
+
 
 /*Button */
 
@@ -271,11 +284,16 @@ ul.list {
     padding-right: 62px;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-radius: 4px;
+    bowrder-radius: 4px;
     margin-top: 93px;
 }
 
-.feedbeack-footer {
+ul.advantages {
+    display: flex;
+    text-align: left;
+}
+
+a.feedbeack-footer {
     color: var(--title-text-grey);
     font-family: Roboto;
     font-style: normal;
@@ -283,8 +301,25 @@ ul.list {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    margin-top: 9;
-    margin-bottom: 10;
+    margin-bottom: 9px;
+}
+
+li.footer-adress {
+    margin-bottom: 9px;
+}
+
+ul.comand {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+ul.social-icons {
+    padding: 0;
+    display: inline-block;
+    text-align: ;
 }
 
 
@@ -372,7 +407,10 @@ ul.list {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    margin-left: 15px;
+    margin-left: 0px;
+    margin-bottom: 9px;
+    padding-left: 0;
+    margin-top: 9px;
 }
 
 .social {
@@ -517,6 +555,9 @@ ul {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+    border: 2 px solid tomato;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .container {
@@ -580,9 +621,13 @@ h3.specifical {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+    text-align: center;
+}
+
+h3.name {
+    text-align: center;
 }
 
 .hero-section {
@@ -593,7 +638,10 @@ h3.specifical {
     display: flex;
     padding-top: 94px;
     padding-bottom: 94px;
-    we
+}
+
+.container-workers {
+    background-color: #f5f4fa;
 }
 
 .work-section {
@@ -623,17 +671,20 @@ h3.specifical {
     margin-bottom: 200px;
 }
 
-.section {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
 ul.clients-logo {
     display: flex;
     padding: 0px;
-    align-items: center;
+    text-align: c;
+}
+
+ul.advantages {
+    margin: 0px;
+    padding: 0px;
+}
+
+li.advan {
+    margin-right: 30px;
+    text-align: left;
 }
 
 .clients {
@@ -716,17 +767,6 @@ ul.footer-icon {
     display: flex;
     align-items: center;
     padding-left: 0px;
-}
-
-.adress {
-    color: var(--primary-background-button);
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    margin-top: 10px;
-    margin-left: 0px;
 }
 
 .text-footer .footer {
