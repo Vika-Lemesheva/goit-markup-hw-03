@@ -196,6 +196,7 @@ h3 {
     margin-top: 0;
     margin-bottom: 0px;
     marker: none;
+    color: #212121;
 }
 
 h4 {
@@ -265,14 +266,13 @@ ul.list {
     font-weight: 900;
     font-size: 16px;
     line-height: 30px;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     padding-left: 26px;
     padding-right: 62px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 4px;
+    margin-top: 93px;
 }
 
 .feedbeack-footer {
@@ -284,8 +284,7 @@ ul.list {
     line-height: 16px;
     letter-spacing: 0.02em;
     margin-top: 9;
-    margin-bottom: 0;
-    display: block;
+    margin-bottom: 10;
 }
 
 
@@ -335,14 +334,14 @@ ul.list {
 
 /*Paragraph*/
 
-.paragraph {
-    color: var(--title-text-grey);
+.p {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 24px;
     letter-spacing: 0.03em;
+    color: #757575;
 }
 
 
@@ -364,10 +363,6 @@ ul.list {
     text-decoration: none;
     margin-bottom: 10px;
     margin-left: 0px;
-}
-
-.copyright {
-    text-align: center;
 }
 
 .adress {
@@ -453,9 +448,11 @@ ul.contacts {
     margin-right: 50px;
 }
 
-.auth-nav {
+li.auth-nav {
     display: flex;
     text-decoration: none;
+    margin-left: 50px;
+    margin-right: 0px;
 }
 
 .site-nav .link:hover {
@@ -686,6 +683,7 @@ ul.clients-logo {
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0.03em;
+    color: #212121;
 }
 
 
@@ -741,4 +739,5 @@ ul.footer-icon {
     text-align: center;
     padding-top: 0px;
     padding-bottom: 0px;
+    margin: 0px;
 }
