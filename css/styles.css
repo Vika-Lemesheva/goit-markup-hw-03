@@ -138,20 +138,6 @@ ul {
     margin-top: 0px;
 }
 
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-top: 0px;
-}
-
 .hero {
     text-align: center;
 }
@@ -227,9 +213,36 @@ h5 {
     justify-content: center;
 }
 
-ul.social-icon {
-    margin: 0px;
+ul.social-icons {
+    display: flex;
+    margin-right: 44px;
+    margin-left: 44px;
     padding: 0px;
+    margin-top: 16px;
+    margin-bottom: 36px;
+}
+
+.workers {
+    display: flex;
+    padding-top: 50px;
+}
+
+.section-workers {
+    background: #F5F4FA
+}
+
+.flex-card {
+    background: #FFFFFF;
+    width: 270px;
+    margin-right: 30px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
+.flex-card:nth-child(4) {
+    margin-right: 0px;
 }
 
 ul.list {
@@ -241,13 +254,13 @@ ul.works {
     display: flex;
     align-items: center;
     padding-left: 0px;
+    margin: 0px;
+    margin-top: 50px;
 }
 
 li.works-kard {
     margin-right: 30px;
 }
-
-.card {}
 
 
 /*Button */
@@ -284,24 +297,37 @@ li.works-kard {
     padding-right: 62px;
     padding-top: 10px;
     padding-bottom: 10px;
-    bowrder-radius: 4px;
+    border-radius: 4px;
     margin-top: 93px;
 }
 
 ul.advantages {
     display: flex;
     text-align: left;
+    padding: 0px;
+    margin: 0px;
 }
 
-a.feedbeack-footer {
-    color: var(--title-text-grey);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    margin-bottom: 9px;
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1230px;
+    padding-left: 0;
+}
+
+.flex-element {
+    width: 370px;
+    background-color: tomato;
+    margin-bottom: 30px;
+}
+
+.flex-element {
+    width: calc((100-60px)/3) margin-right: 30px;
+    margin-right: 30px;
+}
+
+.flex-element:last-child(3n) {
+    margin-right: 0px;
 }
 
 li.footer-adress {
@@ -316,10 +342,9 @@ ul.comand {
     padding-left: 0px;
 }
 
-ul.social-icons {
+.flex-card.social-icons {
     padding: 0;
     display: inline-block;
-    text-align: ;
 }
 
 
@@ -555,7 +580,6 @@ ul {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-    border: 2 px solid tomato;
     padding-right: 15px;
     padding-left: 15px;
 }
@@ -563,7 +587,7 @@ ul {
 .container {
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
+    width: 1230px;
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 15px;
@@ -624,10 +648,12 @@ h3.specifical {
     letter-spacing: 0.03em;
     color: #757575;
     text-align: center;
+    margin-top: 10px;
 }
 
 h3.name {
     text-align: center;
+    margin-top: 30px;
 }
 
 .hero-section {
@@ -671,28 +697,28 @@ h3.name {
     margin-bottom: 200px;
 }
 
-ul.clients-logo {
+ul .clients-logo {
     display: flex;
     padding: 0px;
-    text-align: c;
+    text-align: center;
 }
 
-ul.advantages {
-    margin: 0px;
+ul.advantages .advan:not(:last-child) {
+    margin-right: 30px;
     padding: 0px;
 }
 
 li.advan {
     margin-right: 30px;
     text-align: left;
+    width: 270px;
 }
 
-.clients {
-    border: 1px solid #afb1b8;
-    box-sizing: border-box;
-    border-radius: 4px;
-    image-orientation: ;
-    margin-right: 30px;
+ul.clients-logo {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding-left: 0px;
 }
 
 .button {
@@ -757,6 +783,10 @@ li.advan {
 
 /*footer*/
 
+.footer-blok {
+    margin-left: 15px;
+}
+
 .footer {
     background: #2f303a;
     padding-top: 48px;
@@ -773,6 +803,17 @@ ul.footer-icon {
     background-color: #2f303a;
     padding-top: 48px;
     padding-bottom: 21px;
+}
+
+a.feedbeack-footer {
+    color: var(--title-text-grey);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin-bottom: 9px;
 }
 
 .copy-right {
