@@ -138,8 +138,18 @@ ul {
     margin-top: 0px;
 }
 
-.hero {
+.hero-section {
     text-align: center;
+    background: linear-gradient(45deg, #0000009a, #0000008c), url(../images/Hero/Header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+    max-height: 600px;
 }
 
 .hero-title {
@@ -158,15 +168,6 @@ ul {
     padding-bottom: 0px;
     padding-top: 0px;
     color: var(--primary-text-color);
-}
-
-.overlay {
-    max-height: 600px;
-    max-width: 1600px;
-    margin-left: auto;
-    margin-left: auto;
-    background-image: url(*../images/Header.img);
-    background-size: contain;
 }
 
 h2 {
@@ -314,6 +315,18 @@ li.works-kard {
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 4px;
+    margin-top: 45px;
+    margin-left: 151px;
+}
+
+.clients {
+    height: 90px;
+    width: 170px;
+    border: 1px solid #afb1b8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ul.advantages {
@@ -422,7 +435,7 @@ p.paragraph {
     line-height: 30px;
     letter-spacing: 0.03em;
     margin-left: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 
@@ -436,7 +449,7 @@ p.paragraph {
     font-size: 22px;
     line-height: 31px;
     text-decoration: none;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-left: 0px;
 }
 
@@ -509,10 +522,6 @@ ul.site-nav.list {
     margin: 0px 0px 0px 0px;
 }
 
-ul.contacts {
-    padding-left: 0px;
-}
-
 .site-nav .item:not(:last-child) {
     margin-right: 50px;
 }
@@ -569,11 +578,6 @@ ul.auth-nav {
     color: var(--primary-background-button);
 }
 
-.section p {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
 ul {
     list-style-type: none;
 }
@@ -588,8 +592,13 @@ ul {
     margin-right: auto;
     padding-top: 94px;
     padding-bottom: 94px;
-    padding-right: 15px;
-    padding-left: 15px;
+}
+
+.section-footer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 48px;
+    padding-bottom: 21px;
 }
 
 .container {
@@ -600,10 +609,6 @@ ul {
     margin-bottom: 0;
     padding-left: 15px;
     padding-right: 15px;
-}
-
-.hero {
-    text-align: center;
 }
 
 h1 {
@@ -621,6 +626,7 @@ h1 {
     text-align: center;
     padding-bottom: 0px;
     padding-top: 0px;
+    color: var(--primary-background-color);
 }
 
 h2 {
@@ -665,8 +671,6 @@ h3.name {
     margin-top: 30px;
     margin-left: auto;
 }
-
-.hero-section {}
 
 .section-clients {
     display: flex;
@@ -777,19 +781,49 @@ ul.clients-logo {
     padding-top: 94px;
 }
 
-section.footer {
+footer {
     display: flex;
     background: #2f303a;
-    padding-top: 48px;
-    padding-bottom: 21px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     margin-left: auto;
-    margin-right: auto;
+    margin-top: auto;
 }
 
-ul.footer-icon {
+.footer-container {
+    display: flex;
+    align-items: top;
+    margin-top: 0px;
+    width: 1200px;
+    margin-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main-adress {
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 28px;
+    margin-right: 69px;
+}
+
+.footer-icon {
     display: flex;
     align-items: center;
     padding-left: 0px;
+    margin-top: 21px;
+    margin-right: 94px;
+}
+
+.soc-icon {
+    margin-right: 10px;
+}
+
+hr.line {
+    width: 1200px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 18px;
 }
 
 .text-footer .footer {
